@@ -1,5 +1,5 @@
-import { useParams, Link, useNavigate } from "react-router-dom";
-import { ArrowLeft, Play } from "lucide-react";
+import { useParams, /*Link,*/ useNavigate } from "react-router-dom";
+import { ArrowLeft, /*Play*/ } from "lucide-react";
 import { useEffect } from "react";
 
 interface ServiceData {

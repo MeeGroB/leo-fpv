@@ -258,7 +258,7 @@ const ServiceDetail = () => {
           Volver a servicios
         </button>
 
-        <div className="mb-16">
+        <div className="mb-12">
           <h1 className="text-6xl font-bold mb-4 bg-linear-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
             {service.title}
           </h1>
@@ -266,6 +266,33 @@ const ServiceDetail = () => {
           <p className="text-lg text-gray-400 max-w-3xl leading-relaxed">{service.description}</p>
         </div>
 
+        <div className="grid md:grid-cols-2 gap-16 mb-24">
+          <div>
+            <h2 className="text-3xl font-bold mb-8 text-white">Características</h2>
+            <ul className="space-y-4">
+              {service.features.map((feature,index)=> (
+                <li key={index} className="flex items-start gap-3 text-gray-300">
+                  <div className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shrink-0"></div>
+                  <span>{feature}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-zinc-950 border border-emerald-500/20 rounded-xl p-8">
+              <h3 className="text-2xl font-bold mb-6 text-white">Interesado?</h3>
+              <p className="text-gray-400 mb-6">Contáctame para discutir tu proyecto específico. Puedo proporcionar presupuesto personalizado basado en tus necesidades.</p>
+
+              <a 
+                href="https://wa.me/+51991012958?text=Estoy%20interesado%20en%20el%20servicio%20de%20grabaciones%20FPV"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-linear-to-r from-emerald-500 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-emerald-400 hover:to-blue-500 transition-all duration-300 text-center"
+              >
+                Contactar por WhatsApp
+              </a>
+          </div>
+        </div>
 
       </div>
     </div>

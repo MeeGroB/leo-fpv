@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Equipment from './components/Equipment';
 import Contact from './components/Contact';
+import ServiceDetail from './pages/ServiceDetail';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -83,7 +84,7 @@ function App() {
             <Contact />
           </>
         }/>
-
+        <Route path='/servicio/:id' element={<ServiceDetail />} />
       </Routes>
 
       <footer className='bg-black border-t border-emerald-500/20 py-8'>

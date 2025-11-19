@@ -77,7 +77,7 @@ const About = () => {
               />
               <div className="absolute inset-0 bg-linear-to-r from-blue-500/20 to-green-500/20 rounded-2xl transform rotate-3"></div>
 
-              <div className="absolute -bottom-6 left-1/2 bg-blue-600 text-white p-4 rounded-lg shadow-lg z-20">
+              <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-blue-600 text-white p-4 rounded-lg shadow-lg z-20">
                 <div className="flex items-center space-x-2">
                   <ShieldCheck />
                   <span className="font-semibold">Certificado RPAS</span>

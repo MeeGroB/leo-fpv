@@ -259,7 +259,7 @@ const ServiceDetail = () => {
         </button>
 
         <div className="mb-12">
-          <h1 className="text-6xl font-bold mb-4 bg-linear-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 mt-2 bg-linear-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
             {service.title}
           </h1>
           <p className="text-2xl text-gray-300 mb-8">{service.subtitle}</p>
@@ -293,6 +293,8 @@ const ServiceDetail = () => {
               </a>
           </div>
         </div>
+
+        
 
       </div>
     </div>

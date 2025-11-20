@@ -33,7 +33,7 @@ const About = () => {
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-blue-400 mt-1 shrink-0" />
                 <div>
-                  <p className="text-white font-semibold">Licencia Profesional</p>
+                  <p className="text-white font-semibold">Acreditado por el MTC</p>
                   <p className="text-gray-400 text-sm">Piloto certificado con todos los permisos vigentes</p>
                 </div>
               </div>

@@ -1,25 +1,28 @@
 
 import { Play, X } from "lucide-react";
 import { useState } from "react";
+import naturalezaImg from "../assets/naturaleza.jpg";
+import motorsportsImg from "../assets/motorsports.jpg";
+import autolandImg from "../assets/autoland.jpg"
 
 const portfolioItems = [
   {
-    image: 'https://images.pexels.com/photos/3026274/pexels-photo-3026274.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Arquitectura Moderna',
-    category: 'Inmobiliaria',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    image: motorsportsImg,
+    title: 'Motorsports',
+    category: 'Deportes',
+    videoUrl: 'https://www.youtube.com/embed/NEkrL1nKqwE'
   },
   {
-    image: 'https://images.pexels.com/photos/1586298/pexels-photo-1586298.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: naturalezaImg,
     title: 'Paisajes Naturales',
     category: 'Naturaleza',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    videoUrl: 'https://www.youtube.com/embed/3julXZ5GeA0'
   },
   {
-    image: 'https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Eventos Corporativos',
-    category: 'Eventos',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    image: autolandImg,
+    title: 'Video de Marca',
+    category: 'Empresas',
+    videoUrl: 'https://www.youtube.com/embed/rHBkHQuupYY'
   },
   {
     image: 'https://images.pexels.com/photos/2138922/pexels-photo-2138922.jpeg?auto=compress&cs=tinysrgb&w=800',

@@ -66,7 +66,7 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="mt-16 bg-black border-emerald-500/30 rounded-2xl p-12">
+        {/* <div className="mt-16 bg-black border-emerald-500/30 rounded-2xl p-12">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <p className="text-emerald-400 text-sm font-semibold mb-2 uppercase">Velocidad</p>
@@ -86,7 +86,7 @@ const Services = () => {
               <p className="text-gray-400 text-sm mt-2">Años pilotando FPV</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
       </div>

@@ -1,5 +1,6 @@
 import { Menu, X, MessageCircle } from 'lucide-react'
 import { useState } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 import Hero from './components/Hero';
 import About from './components/About';
@@ -100,6 +101,7 @@ function App() {
           </p>
         </div>
       </footer>
+      <SpeedInsights />
     </main>
   )
 }

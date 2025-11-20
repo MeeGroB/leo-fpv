@@ -90,6 +90,7 @@ function App() {
       <footer className='bg-black border-t border-emerald-500/20 py-8'>
         <div className='max-w-7xl mx-auto px-6 text-center text-gray-400'>
           <p>&copy; 2025 Leo FPV - Grabaciones Aéreas Profesionales con Drones FPV</p>
+          <p className='mt-2'>Hecho por <a href="https://pierchavez.netlify.app/">Pier Chávez Monteblanco</a></p>
         </div>
       </footer>
     </main>

@@ -2,10 +2,11 @@
 import { Play, X } from "lucide-react";
 import { useState } from "react";
 import naturalezaImg from "../assets/naturaleza.jpg";
-import motorsportsImg from "../assets/motorsports.jpg";
+import motorsportsImg from "../assets/motorsports.png";
 import autolandImg from "../assets/autoland.jpg";
 import azulcochaImg from "../assets/azulcocha.jpg";
-import monumentalImg from "../assets/monumental.jpg"
+import monumentalImg from "../assets/monumental.jpg";
+import conciertoImg from "../assets/concierto.png";
 
 const portfolioItems = [
   {
@@ -39,10 +40,10 @@ const portfolioItems = [
     videoUrl: 'https://www.youtube.com/embed/Wm5j3vRMSpg'
   },
   {
-    image: 'https://images.pexels.com/photos/2166711/pexels-photo-2166711.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Atardeceres Épicos',
-    category: 'Cinematografía',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    image: conciertoImg,
+    title: 'Conciertos',
+    category: 'Eventos',
+    videoUrl: 'https://www.youtube.com/embed/2xFScq57n60'
   }
 ];
 

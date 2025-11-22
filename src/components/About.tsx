@@ -6,7 +6,7 @@ const About = () => {
     <section id="sobre-mi" className="py-24 bg-black">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-5xl font-bold mb-8 bg-linear-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent text-center">
-          Piloto de Drones FPV Profesional
+          Pilotos de Drones FPV y Estabilizados DJI
         </h2>
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
@@ -14,19 +14,23 @@ const About = () => {
 
 
             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-              Soy Leonardo, piloto certificado especializado en videografía aérea FPV cinematográfica. Con experiencia en producciones de alto nivel, creo contenido visual dinámico que captura momentos imposibles de lograr con otros métodos.
+              Soy Leonardo, piloto certificado y especialista en videografía aérea FPV cinematográfica. Con experiencia en producciones de alto nivel, capturo movimientos dinámicos y perspectivas únicas que no se pueden lograr con métodos tradicionales.
             </p>
 
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Mi pasión es transformar ideas en grabaciones aéreas impactantes. Desde publicidad comercial hasta eventos épicos, cada proyecto recibe dedicación total y técnica de punta.
+              Me apasiona transformar ideas en imágenes aéreas impactantes. Desde publicidad comercial hasta eventos de gran escala, cada proyecto lo trabajo con dedicación total, creatividad y técnica de primer nivel.
+            </p>
+
+            <p className="text-gray-300 text-lg mb-8 leading-relaxed">
+              Si se puede imaginar, se puede volar.
             </p>
 
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-emerald-400 mt-1 shrink-0" />
                 <div>
-                  <p className="text-white font-semibold">Drones FPV Profesionales</p>
-                  <p className="text-gray-400 text-sm">DJI Avata 2 con cámaras 4K de alta calidad</p>
+                  <p className="text-white font-semibold">Drones FPV y Estabilizados Profesionales </p>
+                  <p className="text-gray-400 text-sm">Con cámaras 4K de alta calidad</p>
                 </div>
               </div>
 
@@ -38,19 +42,12 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-emerald-400 mt-1 shrink-0" />
-                <div>
-                  <p className="text-white font-semibold">Seguro Profesional</p>
-                  <p className="text-gray-400 text-sm">Responsabilidad civil y cobertura completa</p>
-                </div>
-              </div>
             </div>
 
             <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center bg-zinc-900 border border-emerald-500/20 rounded-lg p-6">
                 <Award className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
-                <p className="text-2xl font-bold text-white">5+</p>
+                <p className="text-2xl font-bold text-white">3+</p>
                 <p className="text-gray-400 text-sm">Años Experiencia</p>
               </div>
 

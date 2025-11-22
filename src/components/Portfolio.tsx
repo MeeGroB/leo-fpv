@@ -3,7 +3,9 @@ import { Play, X } from "lucide-react";
 import { useState } from "react";
 import naturalezaImg from "../assets/naturaleza.jpg";
 import motorsportsImg from "../assets/motorsports.jpg";
-import autolandImg from "../assets/autoland.jpg"
+import autolandImg from "../assets/autoland.jpg";
+import azulcochaImg from "../assets/azulcocha.jpg";
+import monumentalImg from "../assets/monumental.jpg"
 
 const portfolioItems = [
   {
@@ -25,16 +27,16 @@ const portfolioItems = [
     videoUrl: 'https://www.youtube.com/embed/rHBkHQuupYY'
   },
   {
-    image: 'https://images.pexels.com/photos/2138922/pexels-photo-2138922.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Costa y Playas',
+    image: azulcochaImg,
+    title: 'Azulcocha',
     category: 'Naturaleza',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    videoUrl: 'https://www.youtube.com/embed/40a4SfCs-qM'
   },
   {
-    image: 'https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Proyectos Urbanos',
-    category: 'Urbano',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    image: monumentalImg,
+    title: 'Estadio Monumental',
+    category: 'Eventos',
+    videoUrl: 'https://www.youtube.com/embed/Wm5j3vRMSpg'
   },
   {
     image: 'https://images.pexels.com/photos/2166711/pexels-photo-2166711.jpeg?auto=compress&cs=tinysrgb&w=800',

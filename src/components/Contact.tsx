@@ -1,5 +1,5 @@
 
-import { MessageCircle, Instagram, Mail, Phone } from "lucide-react"
+import { MessageCircle, Instagram, Mail, Phone, Youtube } from "lucide-react"
 
 const Contact = () => {
 
@@ -47,6 +47,16 @@ const Contact = () => {
               >
                 <Instagram className="w-6 h-6" />
                 <span>Instagram</span>
+              </a>
+
+              <a 
+                href="https://www.youtube.com/@leonardodantepalominogallo6073"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-300 hover:text-emerald-400 transition-colors"
+              >
+                <Youtube className="w-6 h-6" />
+                <span>Youtube</span>
               </a>
 
               <a 

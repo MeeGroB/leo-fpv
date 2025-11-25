@@ -4,23 +4,23 @@ import { Camera, Cpu, Battery, Radio } from "lucide-react";
 const equipment = [
   {
     icon: Camera,
-    name: 'DJI Mavic 3 Pro',
-    specs: 'Cámara Hasselblad de 20MP, video 5.1K a 50fps, sensor CMOS de 4/3"'
+    name: 'Cinewhoop FPV 3.5 pulgadas',
+    specs: 'Ideal para eventos cerrados e interiores, vuelo estable y seguro en espacios reducidos'
   },
   {
     icon: Camera,
-    name: 'DJI Air 3',
-    specs: 'Doble cámara 48MP, video 4K HDR, tiempo de vuelo de 46 minutos'
+    name: 'DJI Mavic 3 Classic',
+    specs: 'Cámara Hasselblad 20MP, video 5.1K, sensor CMOS 4/3", excelente para tomas aéreas cinematográficas'
   },
   {
     icon: Cpu,
-    name: 'DJI Mini 4 Pro',
-    specs: 'Ultra compacto, 4K/60fps, detección de obstáculos omnidireccional'
+    name: 'Drones FPV 5 pulgadas',
+    specs: 'Alta velocidad y potencia, perfectos para exteriores y tomas dinámicas en espacios amplios'
   },
   {
     icon: Radio,
-    name: 'Control DJI RC Pro',
-    specs: 'Pantalla integrada de 5.5", transmisión OcuSync 3.0+, alcance de 15km'
+    name: 'Cosmostreamer',
+    specs: 'Sistema profesional para streaming en vivo desde drones y cámaras, ideal para transmisiones en tiempo real'
   },
   {
     icon: Battery,
@@ -31,8 +31,8 @@ const equipment = [
     icon: Camera,
     name: 'Filtros ND & Polarizados',
     specs: 'Set completo de filtros profesionales para condiciones de luz variables'
-  }
-];
+  },
+]
 
 const Equipment = () => {
   return (

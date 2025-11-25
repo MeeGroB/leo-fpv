@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
-import videografiaImg from "../assets/videografia.jpg";
-import accionImg from "../assets/accion.jpg";
+
+import cinematograficaImg from "../assets/servicio-cinematografica.jpg";
+import accionImg from "../assets/servicio-accion.jpg";
+import comercialImg from "../assets/servicio-comercial.jpg";
+import eventosImg from "../assets/servicio-eventos.jpg";
+import videoclipImg from "../assets/servicio-videoclip.jpg";
+import productosImg from "../assets/servicio-productos.jpg"
 
 const servicios = [
   {
     id: 'cinematografia-fpv',
     title: 'Videografía FPV Cinematográfica',
-    image: videografiaImg
+    image: cinematograficaImg
   },
   {
     id: 'grabaciones-accion',
@@ -16,22 +21,22 @@ const servicios = [
   {
     id: 'contenido-comercial',
     title: 'Contenido Comercial',
-    image: 'https://images.pexels.com/photos/3944682/pexels-photo-3944682.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    image: comercialImg
   },
   {
     id: 'eventos-celebraciones',
     title: 'Eventos y Celebraciones',
-    image: 'https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    image: eventosImg
   },
   {
     id: 'videoclips-musicales',
     title: 'Videoclips Musicales',
-    image: 'https://images.pexels.com/photos/3618519/pexels-photo-3618519.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    image: videoclipImg
   },
   {
     id: 'proyectos-personalizados',
     title: 'Proyectos Personalizados',
-    image: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    image: productosImg
   }
 ]
 

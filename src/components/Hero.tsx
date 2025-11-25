@@ -16,7 +16,7 @@ const Hero = () => {
           Leo FPV
         </h1>
 
-        <p className="text-2xl md:text-3xl bg-linear-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent font-semibold mb-2">Tu idea, desde otra perspectiva</p>
+        <p className="text-2xl md:text-3xl bg-linear-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent font-semibold mb-2" aria-label="Eslogan principal">Tu idea, desde otra perspectiva</p>
 
         <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-1 leading-relaxed">Realizo videografía aérea con drones FPV y DJI.</p>
 

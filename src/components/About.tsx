@@ -1,5 +1,5 @@
 import { Award, CheckCircle, ShieldCheck, ThumbsUp, Users } from "lucide-react";
-import foto from "../assets/foto_leo.jpg";
+import foto from "../assets/foto_leo.webp";
 
 const About = () => {
   return (

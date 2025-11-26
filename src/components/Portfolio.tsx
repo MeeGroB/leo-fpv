@@ -1,12 +1,12 @@
 
 import { Play, X } from "lucide-react";
 import { useState } from "react";
-import naturalezaImg from "../assets/naturaleza.jpg";
-import motorsportsImg from "../assets/motorsports.png";
-import autolandImg from "../assets/autoland.jpg";
-import azulcochaImg from "../assets/azulcocha.jpg";
-import monumentalImg from "../assets/monumental.jpg";
-import conciertoImg from "../assets/concierto.png";
+import naturalezaImg from "../assets/naturaleza.webp";
+import motorsportsImg from "../assets/motorsports.webp";
+import autolandImg from "../assets/autoland.webp";
+import azulcochaImg from "../assets/azulcocha.webp";
+import monumentalImg from "../assets/monumental.webp";
+import conciertoImg from "../assets/concierto.webp";
 
 const portfolioItems = [
   {

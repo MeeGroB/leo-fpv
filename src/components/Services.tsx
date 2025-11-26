@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-import cinematograficaImg from "../assets/servicio-cinematografica.jpg";
-import accionImg from "../assets/servicio-accion.jpg";
-import comercialImg from "../assets/servicio-comercial.jpg";
-import eventosImg from "../assets/servicio-eventos.jpg";
-import videoclipImg from "../assets/servicio-videoclip.jpg";
-import productosImg from "../assets/servicio-productos.jpg"
+import cinematograficaImg from "../assets/servicio-cinematografica.webp";
+import accionImg from "../assets/servicio-accion.webp";
+import comercialImg from "../assets/servicio-comercial.webp";
+import eventosImg from "../assets/servicio-eventos.webp";
+import videoclipImg from "../assets/servicio-videoclip.webp";
+import productosImg from "../assets/servicio-productos.webp"
 
 const servicios = [
   {

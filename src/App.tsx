@@ -10,20 +10,91 @@ import Equipment from './components/Equipment';
 import Contact from './components/Contact';
 import ServiceDetail from './pages/ServiceDetail';
 import { Route, Routes } from 'react-router-dom';
+import dronImg from "./assets/dron.webp"
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
 
   const whatsappNumber = "+51991012958";
   const whatsappMessage = encodeURIComponent("Hola leo, me interesa contratar tus servicioes de grabaciones FPV. Podemos hablar?");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   const handleNavClick = () => {
-    setMobileMenuOpen(false);
+    setIsClosing(true);
+    setTimeout(() => {
+      setMobileMenuOpen(false);
+      setIsClosing(false);
+    }, 600);
   }
 
   return (
     <main className='min-h-screen bg-black text-white'>
+      <style>{`
+        @keyframes droneDown {
+          from {
+            transform: translateY(-100px);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+
+        @keyframes droneUp {
+          from {
+            transform: translateY(0);
+            opacity: 1;
+          }
+          to {
+            transform: translateY(-100px);
+            opacity: 0;
+          }
+        }
+
+        @keyframes fadeInMenu {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        @keyframes fadeOutMenu {
+          from {
+            opacity: 1;
+          }
+          to {
+            opacity: 0;
+          }
+        }
+
+        @keyframes float {
+          0% { transform: translateY(0)}
+          50% { transform: translateY(12px)}
+          100% { transform: translateY(0)}
+        }
+
+        .drone-enter {
+          animation: droneDown 0.6s ease-out forwards,
+          float 3s ease-in-out 0.8s infinite;
+        }
+
+        .drone-exit {
+          animation: droneUp 0.6s ease-in forwards;
+        }
+
+        .menu-enter {
+          animation: fadeInMenu 0.6s ease-out forwards;
+        }
+
+        .menu-exit {
+          animation: fadeOutMenu 0.6s ease-in forwards;
+        }
+      `}</style>
+
       <nav className='fixed top-0 w-full bg-black/95 backdrop-blur-sm z-50 border-b border-emerald-500/20'>
         <div className='max-w-7xl mx-auto px-6 py-4 flex items-center justify-between'>
           <a href="/" className='text-2xl font-bold bg-linear-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent uppercase'>Leo FPV</a>
@@ -51,8 +122,11 @@ function App() {
         </div>
 
         {mobileMenuOpen && (
-          <div className='md:hidden bg-black/95 border-b border-emerald-500/20'>
+          <div className={`md:hidden bg-black/95 border-b border-emerald-500/20 ${isClosing ? 'menu-exit' : 'menu-enter'}`}>
             <div className='px-6 py-4 flex flex-col min-h-screen gap-8 space-y-4 text-center text-xl'>
+              <div className={`mx-4 mb-0.5 ${isClosing ? 'drone-exit' : 'drone-enter'}`}>
+                <img src={dronImg} alt="" className='w-36 h-auto mx-auto will-change-transform pointer-events-none ' />
+              </div>
               <a href="/#inicio" onClick={handleNavClick} className='hover:text-emerald-400 transition-colors' >Inicio</a>
               <a href="/#sobre-mi" onClick={handleNavClick} className='hover:text-emerald-400 transition-colors' >Sobre Mi</a>
               <a href="/#servicios" onClick={handleNavClick} className='hover:text-emerald-400 transition-colors' >Servicios</a>

@@ -1,5 +1,6 @@
 
 import { Camera, Cpu, Battery, Radio } from "lucide-react";
+import { GiDeliveryDrone } from "react-icons/gi";
 
 const equipment = [
   {
@@ -8,7 +9,7 @@ const equipment = [
     specs: 'Ideal para eventos cerrados e interiores, vuelo estable y seguro en espacios reducidos'
   },
   {
-    icon: Camera,
+    icon: GiDeliveryDrone,
     name: 'DJI Mavic 3 Classic',
     specs: 'Cámara Hasselblad 20MP, video 5.1K, sensor CMOS 4/3", excelente para tomas aéreas cinematográficas'
   },

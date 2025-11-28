@@ -1,5 +1,5 @@
 
-import { MessageCircle, Instagram, Mail, Phone, Youtube } from "lucide-react";
+import { Mail } from "lucide-react";
 import { FaTiktok, FaWhatsapp, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Contact = () => {
